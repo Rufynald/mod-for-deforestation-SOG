@@ -1,7 +1,7 @@
 class CfgPatches {
     class tree_chop {
         name = "Tree Chop Tool System";
-        author = "Rufy & Spoffy";
+        author[] = { "Rufy", "Spoffy", "Savage Game Design" };
         url = "";
 
         requiredAddons[] = { "cba_main" };  // Only depend on CBA + Ace for some fucking reason, dont question this shit just publish and add ace as extra in steam.

@@ -29,4 +29,3 @@ if (!([_hitObject] call para_g_fnc_is_valid_axe_target)) exitWith {};
 hideObjectGlobal _hitObject;
 
 para_s_tools_chopped_trees pushBack _hitPosAGL;
-["SET", "chopped_trees", [para_s_tools_chopped_trees]] call para_s_fnc_profile_db;
